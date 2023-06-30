@@ -1,0 +1,42 @@
+.mainContainer {
+	padding: 20px;
+	width: max-content;
+	margin: 10px auto;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	border-radius: 5px;
+}
+
+.todoListContainer ul {
+	list-style: none;
+	padding: 0;
+}
+
+.todoListContainer li {
+	display: flex;
+	justify-content: space-between;
+}
+
+.addTodoInput {
+	padding: 5px 10px;
+}
+
+.addTodoButton {
+	padding: 5px 10px;
+	border: none;
+	background-color: black;
+	color: white;
+	height: 30px;
+	margin-left: -5px;
+}
+
+.todoActionButtons button {
+	border: none;
+	padding: 0;
+	font-size: 1.2em;
+	margin-left: 5px;
+	background: none;
+}
+
+.todoActionButtons button:hover, .addTodoButton:hover {
+	cursor: pointer;
+}
